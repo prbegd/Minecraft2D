@@ -1,0 +1,104 @@
+{
+  "air": {
+    "parent": "block/cube_all",
+    "number": 0,
+    "properties": {
+      "hitBox": [
+        0.00,
+        0.00,
+        0.00
+      ]
+    }
+  },
+  "stone": {
+    "properties": {
+      "soundParent": "stone",
+      "hardness": 1.5
+    }
+  },
+  "grass_block": {
+    "blockStates": {
+      "snowy": false
+    },
+    "actions": {
+      "getStateForNeighborUpdate": "GrassBlock.py"
+    },
+    "properties": {
+      "soundParent": "gravel",
+      "hardness": 0.6
+    }
+  },
+  "dirt": {
+    "properties": {
+      "soundParent": "gravel",
+      "hardness": 0.5
+    }
+  },
+  "cobblestone": {
+    "properties": {
+      "soundParent": "stone",
+      "hardness": 2.0
+    }
+  },
+  "oak_planks": {
+    "properties": {
+      "soundParent": "wood",
+      "hardness": 2.0
+    }
+  },
+  "oak_sapling": {
+    "properties": {
+      "soundParent": "grass",
+      "hardness": 0.0
+    }
+  },
+  "bedrock": {
+    "properties": {
+      "soundParent": "stone",
+      "hardness": -1.0
+    }
+  },
+  "sand": {
+    "properties": {
+      "soundParent": "sand",
+      "hardness": 0.5
+    }
+  },
+  "gravel": {
+    "properties": {
+      "soundParent": "gravel",
+      "hardness": 0.6
+    }
+  },
+  "gold_ore": {
+    "properties": {
+      "soundParent": "stone",
+      "hardness": 3.0
+    }
+  },
+  "iron_ore": {
+    "properties": {
+      "soundParent": "stone",
+      "hardness": 3.0
+    }
+  },
+  "coal_ore": {
+    "properties": {
+      "soundParent": "stone",
+      "hardness": 3.0
+    }
+  },
+  "oak_log": {
+    "properties": {
+      "soundParent": "wood",
+      "hardness": 2.0
+    }
+  },
+  "oak_leaves": {
+    "properties": {
+      "soundParent": "grass",
+      "hardness": 0.2,
+      "color": true
+    }
+  }
+}
