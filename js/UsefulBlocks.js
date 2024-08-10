@@ -113,7 +113,7 @@
                 blocks: [
                     rightShiftZeroComplementOperator,
                     getCurrentMills,
-                    randomFromSeedRange,
+                    //randomFromSeedRange,
                     randomFromSeed,
                     setRandomSeed,
                     returnSelf
